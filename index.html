@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admitly</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f5f7fb;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#0f172a;
+color:white;
+}
+
+.navbar a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:white;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.btn{
+background:#2563eb;
+padding:12px 25px;
+color:white;
+border-radius:8px;
+text-decoration:none;
+}
+
+.mentors{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+width:250px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+height:250px;
+object-fit:cover;
+}
+
+.apply{
+background:white;
+padding:60px;
+text-align:center;
+}
+
+input{
+padding:10px;
+width:250px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>Admitly</h2>
+
+<div>
+<a href="#">Home</a>
+<a href="#mentors">Mentors</a>
+<a href="#apply">Apply</a>
+</div>
+
+</div>
+
+<div class="hero">
+
+<h1>Top universitetlarga kirish uchun mentor toping</h1>
+
+<p>Admitly orqali tajribali mentorlar sizga application jarayonida yordam beradi.</p>
+
+<a class="btn" href="#mentors">Mentor topish</a>
+
+</div>
+
+<div class="mentors" id="mentors">
+
+<div class="card">
+
+<img src="mentor1.jpg">
+
+<h3>Bahodir Abdihakimov</h3>
+
+<p>Harvard University</p>
+
+</div>
+
+<div class="card">
+
+<img src="mentor2.jpg">
+
+<h3>Javohir Shavkatov</h3>
+
+<p>University of Toronto</p>
+
+</div>
+
+<div class="card">
+
+<img src="mentor3.jpg">
+
+<h3>Ozodbek Mamarajabov</h3>
+
+<p>Stanford University</p>
+
+</div>
+
+</div>
+
+<div class="apply" id="apply">
+
+<h2>Mentor bilan bog‘lanish</h2>
+
+<form>
+
+<input type="text" placeholder="Ismingiz">
+
+<br>
+
+<input type="email" placeholder="Email">
+
+<br>
+
+<button>Yuborish</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
